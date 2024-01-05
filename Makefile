@@ -20,7 +20,8 @@ ifeq (True,$(HAS_CONDA))
 		@echo ">>> Detected conda, creating conda environment."
 		mamba env create --force --name $(PROJECT_NAME) -f ./src/environment.yml
 
-		$(MAKE) setup_packages
+		# disable for now until the details are more well defined
+		# $(MAKE) setup_packages
 
 		@echo ">>> New conda env created. Activate with:\nsource activate $(PROJECT_NAME)"
 		

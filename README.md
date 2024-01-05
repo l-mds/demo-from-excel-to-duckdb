@@ -2,6 +2,7 @@
 
 A simple example to show how to stop abusing Excel and steer towards suitable data tools.
 
+Over time it will implement more and more features of the [roadmap](https://github.com/l-mds/roadmap#batch).
 
 ## development infrastructure (local setup)
 

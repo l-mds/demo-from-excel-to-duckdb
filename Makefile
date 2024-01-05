@@ -75,6 +75,11 @@ delete-dangling:
 	 docker rmi $(docker images -f "dangling=true" -q)
 
 
+## generate fake data
+generate-fake-data:
+	($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; python src/xls2ddb/dummy_data_generator.py )
+
+
 ## start dagster webserver UI
 start-pipeline:
 	($(CONDA_ACTIVATE) "${PROJECT_NAME}" ; cd src/ && dagster dev)

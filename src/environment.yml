@@ -1,0 +1,43 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.11
+  - pandas<3
+  - pip
+  
+  - grpcio
+  - grpcio-tools
+
+  - xlrd >=2.0.1,<2.1
+  - python-duckdb >=0.9.2,<1.0.0
+  
+  # dev dependencies
+  - jupyterlab
+  - jupyterlab-git
+  - ipywidgets
+  - isort
+  - pytest
+  - black
+  - ruff
+  - mypy
+  - yamllint
+
+  - pip:
+      - dagster >=1.5.14,<1.6
+      - dagster-docker >=0.21.14,<0.22
+      - dagster-postgres >=0.21.14,<0.22
+      - dagster-dbt >=0.21.14,<0.22
+      - dagster-duckdb >=0.21.14,<0.22
+      - dagster-duckdb-polars >=0.21.14,<0.22
+      - dagster-duckdb-pandas >=0.21.14,<0.22
+      - dagster-webserver >=1.5.14,<1.6
+      - dbt-postgres==1.7.1
+      - dbt-duckdb==1.7.0
+      #- git+https://github.com/milicevica23/dbt-duckdb.git@feature/delta-plugin
+      - sqlfluff==2.3.5
+      - sqlfluff-templater-dbt==2.3.5
+      - deltalake >=0.15.0,<0.16
+      - polars >=0.20.3,<0.21
+      - buenavista >= 0.4.0,<0.5
+      - openpyxl >= 3.1.2, < 3.2

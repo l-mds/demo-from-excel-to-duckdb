@@ -24,21 +24,21 @@ dependencies:
   - yamllint
 
   - pip:
-      - dagster >=1.5.14,<1.6
-      - dagster-docker >=0.21.14,<0.22
-      - dagster-postgres >=0.21.14,<0.22
-      - dagster-dbt >=0.21.14,<0.22
-      - dagster-duckdb >=0.21.14,<0.22
-      - dagster-duckdb-polars >=0.21.14,<0.22
-      - dagster-duckdb-pandas >=0.21.14,<0.22
-      - dagster-webserver >=1.5.14,<1.6
-      - dbt-postgres==1.7.1
-      - dbt-duckdb==1.7.0
+      - dagster >=1.6.0,<1.7
+      - dagster-docker >=0.22.0,<0.23
+      - dagster-postgres >=0.22.0,<0.23
+      - dagster-dbt >=0.22.0,<0.23
+      - dagster-duckdb >=0.22.0,<0.23
+      - dagster-duckdb-polars >=0.22.0,<0.23
+      - dagster-duckdb-pandas >=0.22.0,<0.23
+      - dagster-webserver >=1.6.0,<1.7
+      - dbt-postgres==1.7.5
+      - dbt-duckdb==1.7.1
       #- git+https://github.com/milicevica23/dbt-duckdb.git@feature/delta-plugin
       - sqlfluff==2.3.5
       - sqlfluff-templater-dbt==2.3.5
       - deltalake >=0.15.0,<0.16
-      - polars >=0.20.3,<0.21
+      - polars >=0.20.5,<0.21
       - buenavista >= 0.4.0,<0.5
       - openpyxl >= 3.1.2, < 3.2
-      - faker >= 22.0.0, < 22.1
+      - faker >= 22.2.0, < 22.3

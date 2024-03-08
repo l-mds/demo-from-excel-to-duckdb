@@ -32,13 +32,13 @@ dependencies:
       - dagster-duckdb-polars >=0.22.0,<0.23
       - dagster-duckdb-pandas >=0.22.0,<0.23
       - dagster-webserver >=1.6.0,<1.7
-      - dbt-postgres==1.7.5
-      - dbt-duckdb==1.7.1
+      - dbt-postgres==1.7.9
+      - dbt-duckdb==1.7.3
       #- git+https://github.com/milicevica23/dbt-duckdb.git@feature/delta-plugin
       - sqlfluff==2.3.5
       - sqlfluff-templater-dbt==2.3.5
-      - deltalake >=0.15.0,<0.16
-      - polars >=0.20.5,<0.21
+      - deltalake >=0.16.0,<0.17
+      - polars >=0.20.14,<0.21
       - buenavista >= 0.4.0,<0.5
       - openpyxl >= 3.1.2, < 3.2
       - faker >= 22.2.0, < 22.3
